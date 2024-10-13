@@ -14,7 +14,7 @@ app = Flask(__name__)
 CORS(app, origins=['http://localhost:3000'])  # Adjust the origin as needed
 
 # Set your OpenAI API key from environment variable
-openai.api_key = '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'
+# openai.api_key = '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'
 
 # MongoDB connection
 mongo_client = MongoClient("mongodb://localhost:27017/")
